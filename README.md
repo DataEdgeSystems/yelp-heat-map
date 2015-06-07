@@ -14,3 +14,5 @@ Currently has been tested using the JSON data for reviews and business provided 
 To run the program, you'll also need to get the json-simple library and pass it as a param to libjars.
 
 <pre>hadoop jar &#60built_solution.jar&#62  solution.WordCount -libjars=&#60 path to simple json&#62 /json-simple-1.1.1.jar  -D wc.business.file=&#60 path to business json file&#62  &#60 path to review files directory&#62  &#60 outputdir&#62</pre>
+
+The output is a format easily consumable by google heatmaps api. See https://developers.google.com/maps/documentation/javascript/heatmaplayer
